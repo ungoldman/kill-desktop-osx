@@ -1,0 +1,46 @@
+{
+  "name": "kill-desktop-osx",
+  "description": "Kill Your Desktop (OS X Only).",
+  "version": "1.0.0",
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "bugs": {
+    "url": "https://github.com/ngoldman/kill-desktop-osx/issues"
+  },
+  "dependencies": {
+    "shelljs": "^0.4.0"
+  },
+  "devDependencies": {
+    "standard": "^3.3.2"
+  },
+  "homepage": "https://github.com/ngoldman/kill-desktop-osx",
+  "keywords": [
+    "apple",
+    "clutter",
+    "deactivate",
+    "desktop",
+    "desktop-toggle",
+    "distraction",
+    "freedom",
+    "kill",
+    "kill-desktop",
+    "mac",
+    "macbook",
+    "os-x",
+    "osx",
+    "toggle",
+    "toggle-desktop",
+    "visibility"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "kill-desktop": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngoldman/kill-desktop-osx.git"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
