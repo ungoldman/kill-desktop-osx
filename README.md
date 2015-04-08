@@ -22,7 +22,6 @@ npm install -g kill-desktop-osx
 $ kill-desktop
 
  (ノಠ益ಠ)ノ︵doʇʞsǝp
-
 ```
 
 No more desktop! You can't drag stuff on there and all the icons are gone. The folder is still there and works normally, it's just no longer ruining your sweet wallpaper and stressing you out and messing up your life.
@@ -33,10 +32,9 @@ Feeling remorse? It's ok.
 $ kill-desktop unkill
 
  desktopノ(º_ºノ)
-
 ```
 
-Other valid commands: `resurrect`, `restore`, `revive`, `undo`, `jk`, `I'm sorry`
+Other valid commands: `resurrect`, `restore`, `revive`, `undo`, `jk`, `I'm sorry`, `my god`, `what have I done`, `this wasn't supposed to happen`, `forgive me`
 
 In fact any words will be fine, because running it a second time will just undo it no matter what.
 
