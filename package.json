@@ -3,6 +3,9 @@
   "description": "Kill Your Desktop (OS X Only).",
   "version": "1.0.0",
   "author": "Nate Goldman <nate@ngoldman.me>",
+  "bin": {
+    "kill-desktop": "./bin/cli.js"
+  },
   "bugs": {
     "url": "https://github.com/ngoldman/kill-desktop-osx/issues"
   },
@@ -33,9 +36,6 @@
   ],
   "license": "ISC",
   "main": "index.js",
-  "bin": {
-    "kill-desktop": "./bin/cli.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ngoldman/kill-desktop-osx.git"
