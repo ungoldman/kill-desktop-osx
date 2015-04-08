@@ -38,6 +38,21 @@ Other valid commands: `resurrect`, `restore`, `revive`, `undo`, `jk`, `I'm sorry
 
 In fact any words will be fine, because running it a second time will just undo it no matter what.
 
+## Node API
+
+This also works as a regular node module, like so:
+
+```
+npm install kill-desktop-osx
+```
+
+```js
+var killDesktop = require('kill-desktop-osx')
+var state = killDesktop()
+```
+
+`state` will be `'dead'` if desktop was killed, `'alive'` if desktop was resurrected.
+
 ## License
 
 [ISC](LICENSE.md)

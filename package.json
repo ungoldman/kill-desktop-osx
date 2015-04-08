@@ -1,7 +1,7 @@
 {
   "name": "kill-desktop-osx",
   "description": "Kill Your Desktop (OS X Only).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nate Goldman <nate@ngoldman.me>",
   "bin": {
     "kill-desktop": "./bin/cli.js"

@@ -13,8 +13,8 @@ module.exports = doTheDeed
 function doTheDeed () {
   var isDead = checkPulse()
 
-  if (isDead) resurrect()
-  else kill()
+  if (isDead) return resurrect()
+  else return kill()
 }
 
 function checkPulse () {
@@ -26,10 +26,10 @@ function checkPulse () {
 
 function kill () {
   execute(strike + victim + withJustice + moveBody, hideEvidence)
-  console.log('\n (ノಠ益ಠ)ノ︵doʇʞsǝp\n')
+  return 'dead'
 }
 
 function resurrect () {
   execute(strike + victim + withHealing + moveBody, hideEvidence)
-  console.log('\n desktopノ(º_ºノ)\n')
+  return 'alive'
 }
