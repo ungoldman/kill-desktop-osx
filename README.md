@@ -16,6 +16,8 @@ Kill Your Desktop (OS X only).
 npm install -g kill-desktop-osx
 ```
 
+This installs a program called `kill-desktop` that you can use in your terminal to just plain murder a desktop.
+
 ## Usage
 
 ```
