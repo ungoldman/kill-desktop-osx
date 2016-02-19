@@ -10,6 +10,12 @@
 
 Kill Your Desktop (OS X only).
 
+**tl;dr:** If you want to hide your desktop on OS X, you can use this module or just run the following:
+
+```
+defaults write com.apple.finder CreateDesktop false
+```
+
 ## Install
 
 ```
@@ -54,6 +60,17 @@ var state = killDesktop()
 ```
 
 `state` will be `'dead'` if desktop was killed, `'alive'` if desktop was resurrected.
+
+## Confession
+
+This module is just a silly wrapper around these commands:
+
+```
+defaults read com.apple.finder CreateDesktop
+defaults write com.apple.finder CreateDesktop false
+defaults write com.apple.finder CreateDesktop true
+killall Finder
+```
 
 ## License
 
