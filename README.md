@@ -1,33 +1,30 @@
 # kill-desktop-osx
 
-[![npm][npm-image]][npm-url]
-[![travis][travis-image]][travis-url]
+[![npm][1]][2]
+[![travis][3]][4]
+[![standard][5]][6]
+[![downloads][7]][2]
 
-[npm-image]: https://img.shields.io/npm/v/kill-desktop-osx.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/kill-desktop-osx
-[travis-image]: https://img.shields.io/travis/ngoldman/kill-desktop-osx.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ngoldman/kill-desktop-osx
+[1]: https://img.shields.io/npm/v/kill-desktop-osx.svg?style=flat-square
+[2]: https://www.npmjs.com/package/kill-desktop-osx
+[3]: https://img.shields.io/travis/ungoldman/kill-desktop-osx/master.svg?style=flat-square
+[4]: https://travis-ci.org/ungoldman/kill-desktop-osx
+[5]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[6]: http://standardjs.com/
+[7]: https://img.shields.io/npm/dm/kill-desktop-osx.svg?style=flat-square
 
 Kill Your Desktop (OS X only).
 
-**tl;dr:** If you want to hide your desktop on OS X, you can use this module or just run the following:
+**tl;dr:** If you want to hide your desktop on OS X, you can use this module... or just run the following:
 
 ```
 defaults write com.apple.finder CreateDesktop false
 ```
 
-## Install
-
-```
-npm install -g kill-desktop-osx
-```
-
-This installs a program called `kill-desktop` that you can use in your terminal to just plain murder a desktop.
-
 ## Usage
 
 ```
-$ kill-desktop
+$ npx kill-desktop-osx
 
  (ノಠ益ಠ)ノ︵doʇʞsǝp
 ```
@@ -37,7 +34,7 @@ No more desktop! You can't drag stuff on there and all the icons are gone. The f
 Feeling remorse? It's ok.
 
 ```
-$ kill-desktop unkill
+$ npx kill-desktop-osx unkill
 
  desktopノ(º_ºノ)
 ```
