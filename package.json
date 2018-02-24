@@ -2,12 +2,12 @@
   "name": "kill-desktop-osx",
   "description": "Kill Your Desktop (OS X Only).",
   "version": "1.0.1",
-  "author": "Nate Goldman <nate@ngoldman.me>",
+  "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bin": {
     "kill-desktop": "./bin/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/ngoldman/kill-desktop-osx/issues"
+    "url": "https://github.com/ungoldman/kill-desktop-osx/issues"
   },
   "dependencies": {
     "shelljs": "^0.4.0"
@@ -15,7 +15,7 @@
   "devDependencies": {
     "standard": "^3.3.2"
   },
-  "homepage": "https://github.com/ngoldman/kill-desktop-osx",
+  "homepage": "https://github.com/ungoldman/kill-desktop-osx",
   "keywords": [
     "apple",
     "clutter",
@@ -38,7 +38,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/kill-desktop-osx.git"
+    "url": "git+https://github.com/ungoldman/kill-desktop-osx.git"
   },
   "scripts": {
     "test": "standard"
