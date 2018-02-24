@@ -69,6 +69,10 @@ defaults write com.apple.finder CreateDesktop true
 killall Finder
 ```
 
+## Contributing
+
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
+
 ## License
 
 [ISC](LICENSE.md)
